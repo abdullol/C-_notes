@@ -61,11 +61,11 @@
  * Dictionary<U, V>
  * HashSet<T>
  * CONCEPT LINE
+ * extension methods
 ---------------------------------------------
 generics
 lambda expression
 events & delegates
-extension methods
 lambda expression
 LINQ
 Nullable types
@@ -555,6 +555,12 @@ _it allow finding an item by its key (scenario is finding person  by its last na
 this keyword
 points towards  the object
 
+ * extension methods
+ - Extension methods are additional custom methods which were originally not included with the class.
+ - Extension methods can be added to custom, .NET Framework or third party classes, structs or interfaces using namespace.
+ - The first parameter of the extension method must be of the type for which the extension method is applicable, preceded by the this keyword.
+ - extension method are static methods present in static class
+
 CONCEPT LINE
 
  - ClassName ObjectName=new ClassName();
@@ -589,6 +595,8 @@ _protected similar to private but can be accessed from derive class
 
 _C# supports Nested classes, a class thats member of another class it can also have access modifier. Object can contain other objects like car can have motor both arw object having their own properties.
 _Strings are nullable in c#
+	
+
 
 
 
